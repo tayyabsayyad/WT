@@ -1,0 +1,46 @@
+Possible attacks on WLAN and WEP.
+ans -Wireless attacks are of two sub categories:
+
+a) N/w attacks and
+b) Device Security Information Attacks
+Network Attacks:
+a) DoS Attacks: flooding communication server with connection request.
+b) Traffic analysis: wireless cards to track traffic load
+c) Eaves dropping: access data flow that is not encryptedd) Session interception: man in middle modifies message
+e) Spoofing: attacker pretends to be leg it user
+f) Capturing and retransmission: msgs contain identity location and credentials.
+g) Info leakage: attacker pretends to be an mss
+h) Modification: database change or program
+i) Fabrication
+Device Attacks:Pull attacks, Push attacks, Forced deauthentication, Multiprotocol communication, Mobility and roaming, Disconnection Delegation
+
+WEP (wired equivalent privacy)It is based on symmetric secret key
+    Keystream is created using secret key and initialization vector (IV)
+Attacks on computer systems and networks can be divided
+into passive and active attacks
+– Active attacks involve altering data or creating fraudulent streams.
+– Passive attacks are inherently eavesdropping or snooping on transmission.
+Other categories of attack on Wireless Network:
+Jamming:
+Attacks against encryption
+Interruption of service attacks is also easily applied to wireless
+networks. In such a case, the legitimate traffic cannot reach clients
+or access points due to the fact that illegitimate traffic overwhelms
+the frequencies. (e.g. Generating noise in 2.4 GHz band)
+IEEE 802.11b standard uses an encryption scheme called Wired
+Equivalent Privacy (WEP) which has proven to have some
+weaknesses. Sophisticated attacker can break the WEP scheme.
+Misconfiguration
+The majority of access points have an unsecured configuration,
+where the security features may not be enabled.11
+Brute force attacks against passwords of access points
+Attackers can attempt to compromise this password or key by
+trying all possibilities. Once the attacker guesses the key or the
+password, he/she can gain access to the access point and compromise
+the security of the system.
+Insertion attacks
+This type of attack is based on deploying a new wireless network
+without following security procedure.
+
+
+references-www.ques10.com/p/14119/explain-possible-attacks-on-wireless-lan-and-exp-1
