@@ -1,0 +1,44 @@
+ • Implementation of a local loop especially in rural areas used to remain a risk for many operators due to less users and increased cost of materials. The loop lines are copper wires which require more investments.
+• However today with Wireless local loop (WLL) has been introduced which solves most of these problems. 
+• As WLL is wireless, the labor-charges and time-consuming investments are no longer relevant.
+• WLL systems can be based on one of the four below technologies:
+1. Satellite-based systems.
+2. Cellular-based systems.
+3. Microcellular-based Systems
+4. Fixed Wireless Access Systems 
+• The WLL architecture is shown below:
+• The given architecture consists of three major components i.e WANU, WASU and SF
+• Wireless Access network unit (WANU): the WANU consists of various components which include 
+1. several base stations transceivers or radio ports (RP) 
+2. a Radio port control unit 
+3. an Access manager (AM) 
+4. an HLR. 
+• It provides various functionalities like:
+1. Authentication 
+2. Air interface privacy 
+3. Over-the-air registration of subscriber units. 
+4. Operations and Maintenance 
+5. Routing 
+6. Billing 
+7. Switching functions 
+8. Transcoding of voice and data. 
+• Wireless access subscriber unit (WASU): It provides an air interface UWLL towards the network and a traditional interface TWLL towards the subscriber.
+• The power supply for it is provided locally. 
+• The interface includes 
+1. protocol conversion and transcoding 
+2. authentication functions 
+3. signaling functions 
+• The TWLL interface can be an RJ-11 or RJ-45 port.
+• The UWLL interface can be AMPS, GSM, DECT and so one.
+• Switching Function (SF): The switching function (SF) is associated with a switch that can be digital switch with or without Advanced Intelligent Network (AIN) capability, an ISDN switch or a Mobile Switching Centre (MSC).
+• The AWLL interface between the WANU and the SF can be ISDN-BRI or IS-634 or IS-653 or such variants.
+Deployment Issues:
+• To compete with other local loop technologies WLL needs tom [provide sufficient coverage and capacity, high circuit quality and efficient data services.
+• Moreover the WLL cost should be competitive with its wireline counterpart. 
+• Various issues are considered in WLL development which include:
+1. Spectrum: The implementation of WLL should be flexible to accommodate different flexible bands as well as non-continuous bands. More these bands are licensed by government.
+2. Service quality: Customer expects that the quality of service should be better than the wireline counterpart. The quality requirements include link quality, reliability and fraud immunity.
+3. Network Planning: Unlike Mobile System, WLL assumes that user is stationary, not moving. Also the network penetration should be greater than 90%. Therefore WLL should be installed based on parameters like Population Density etc. 
+4. Economics: Major cost here is electronic equipment’s. In current scenario, the cost of such electronic equipment is reducing periodically.
+• In traditional telephone networks, your phone would be connected to the nearest exchange through a pair of copper wires.
+• Wireless local loop (WLL) technology simply means that the subscriber is connected to the nearest exchange through a radio link instead of through these copper wires.

@@ -1,0 +1,44 @@
+LMDS Aechitecture
+![LMDS Architecture](http://www.rfwireless-world.com/images/LMDS-architecture.jpg)
+
+
+LMDS is the short form of Local Multipoint Distribution Service. It is a P2MP (Point to Multi-Point) technology operating above 20 GHz. P2P (Point to Point) and TV systems can also be interfaced with LMDS. 
+The figure-1 depicts LMDS architecture. It consists of NOC (Network Operation Center), BS (Base Station), CPE (Customer Premises Equipment), fiber based infrastructure. Multiple NOCs are interconnected together. Fiber backbone infrastructure consists of SONET, OC-12, OC-3, DS3 optical links, CO equipments etc. Moreover NOC is interfaced with ATM, IP systems, PSTN and Internet. 
+BS is interfaced with optical equipments on one side and wireless on the other. It houses optical to electrical and electrical to optical interfaces as well as RF up/down converters. RF up converter is used to convert data to be transmitted on modulated RF waveforms. The RF down converter does the reverse operation. 
+CPEs are installed at customer premises and are linked with BS using wireless microwave links. They are available from multiple vendors. It consists of functionalities viz. modulation, demodulation, RF upconversion and RF downconversion etc. CPEs utilize multiple access schemes viz. TDMA, FDMA and CDMA for communication with BSs in the LMDS network. 
+Following are the key features of LMDS system: 
+• It operates at 28 GHz or 38 GHz frequency. 
+• It is installed similar to cellular system cell based layout. 
+• Cell size or range of BS is 5 miles. 
+• It uses P2MP and P2P topologies for end communication with CPEs. 
+LMDS Advantages and Disadvantages :
+
+Following are the LMDS advantages: 
+• It has larger bandwidth used for wide variety of applications such as voice, IP, data etc. 
+• It supports large capacity of users densely populated by way of sectorizing the area into cells. 
+Following are the LMDS disadvantages: 
+• It has high RF equipment costs due to larger number needed. 
+• Smaller cell size (i.e. 2 to 8 Km) due to requirement of covering large capacity of users. 
+• Requires many cells to cover larger city areas. This increases installation cost for service providers. 
+MMDS Architecture
+![MMDS Architecture](www.rfwireless-world.com/images/MMDS-architecture.jpg)
+
+MMDS is the short form of Multichannel Multipoint Distribution Service. It is used for small business and home offices. It is not used for large customer requirements such as central offices. It is used where other broadband wireless technologies are difficult to be installed. It uses microwave tower installed on top of the mountains or tall buildings. It covers larger distance compare to LMDS which is about 35 miles. 
+The figure-2 depicts MMDS architecture. It consists of Hub equipment and customer side equipments. Hub consists of antenna tower, RF equipments, Modem, Router for connection with internet and network management system (i.e. NMS). Customer side equipments include antenna, wireless modem, ethernet switch, PCs etc. Hub antenna tower receives wireless signals from multiple users similar to P2MP topology. Each user premise antenna and Hub antenna is connected with P2P microwave link. 
+Following are the key features of MMDS system: 
+• It operates in 2.5 GHz and 3.5 GHz frequency bands. 
+• Hub tower has coverage distance of about 35 miles. 
+• It uses both P2MP and P2P topologies. P2MP from multiple users to Hub and P2P between individual user and Hub. 
+
+MMDS Advantages and Disadvantages :
+Following are the MMDS advantages: 
+• The RF propagation covers 100 Km of region using single antenna tower. 
+• Due to smaller frequency of use compare to LMDS, MMDS does not suffer from rain attenuation. 
+• RF equipments are cheaper at lower frequency of 2.5GHz or 3.5 GHz and are available in large quantities. 
+Following are the MMDS disadvantages: 
+• It does not support larger capacity due to lack of sectorization concept in MMDS. 
+• It suffers from interference from other MMDS and TV applications. 
+• Large upstream bandwidth needs more and accurate planning. 
+
+
+
