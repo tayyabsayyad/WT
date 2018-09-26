@@ -1,0 +1,54 @@
+Explain possible attacks on wireless LAN and explain WEP in detail?
+
+Wireless attacks are of two sub categories:
+
+a) N/w attacks and
+
+b) Device Security Information Attacks
+
+Network Attacks:
+
+a) DoS Attacks: flooding communication server with connection request.
+
+b) Traffic analysis: wireless cards to track traffic load
+
+c) Eaves dropping: access data flow that is not encrypted
+
+d) Session interception: man in middle modifies message
+
+e) Spoofing: attacker pretends to be leg it user
+
+f) Capturing and retransmission: msgs contain identity location and credentials.
+
+g) Info leakage: attacker pretends to be an mss
+
+h) Modification: database change or program
+
+i) Fabrication
+
+Device Attacks:
+
+    Pull attacks
+    Push attacks
+    Forced deauthentication
+    Multiprotocol communication
+    Mobility and roaming
+    Disconnection
+    Delegation
+
+WEP (wired equivalent privacy)
+
+    It is based on symmetric secret key
+    Keystream is created using secret key and initialization vector (IV)
+
+enter image description here
+
+Frame body and ICV are encrypted.
+
+enter image description here
+
+Receiver checks ICV value that it has computes against what has actually arrived.
+
+If same genuine data else discarded.
+
+enter image description here

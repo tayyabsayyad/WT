@@ -1,0 +1,26 @@
+Explain in detail IEEE 802.11 WLAN architecture?
+
+STA: station
+AP: access point
+BSS: basic service set
+ESS: extended service set
+BSS: act as building blocks for formation of big wireless LANS
+ESS: International collection of BSS
+When BSS's are interconnected the network becomes one with infrastructure. 802.11 infrastructure has several elements. Two or more BSS's are interconnected using a Distribution System or DS. This concept of DS increases network coverage. Each BSS becomes a component of an extended, larger network. Entry to the DS is accomplished with the use of Access Points (AP). An access point is a station, thus addressable. So, data moves between the BSS and the DS with the help of these access points.
+Creating large and complex networks using BSS's and DS's leads us to the next level of hierarchy, the Extended Service Set or ESS. The beauty of the ESS is the entire network looks like an independent basic service set to the Logical Link Control layer (LLC). This means that stations within the ESS can communicate or even move between BSS′s transparently to the LLC.
+While the implementation for the DS is not specified, 802.11 does specify the services, which the DS must support. Services are divided into two sections
+Station Services (SS)
+Distribution System Services (DSS).
+There are five services provided by the DSS
+Association
+Reassociation
+Disassociation
+Distribution
+Integration
+The first three services deal with station mobility. If a station is moving within its own BSS or is not moving, the stations mobility is termed No-transition. If a station moves between BSS's within the same ESS, its mobility is termed BSS-transition. If the station moves between BSS's of differing ESS's it is ESS transition.
+Distribution and Integration are the remaining DSS's. Distribution is simply getting the data from the sender to the intended receiver. The message is sent to the local AP (input AP), then distributed through the DS to the AP (output AP) that the recipient is associated with. If the sender and receiver are in the same BSS, the input and out AP's are the same. So the distribution service is logically invoked whether the data is going through the DS or not. Integration is when the output AP is a portal. Thus, 802.x LANs are integrated into the 802.11 DS.
+Station services are:
+    Authentication
+    Deauthentication
+    Privacy
+    MAC Service Data Unit (MSDU) Delivery.

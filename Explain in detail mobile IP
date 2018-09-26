@@ -1,0 +1,15 @@
+Explain in detail mobile IP?
+
+Mobile IP is designed to support host mobility on the internet. User is connected to one or more applications across the internet, the user’s point of attachment changes dynamically and that all connections are automatically maintained despite the change.
+
+    Server X transmits an IP datagram for mobile nodes A with A’s address in IP header. IP datagram is routed to A’s home network.
+    At home N/w the incoming IP datagram is intercepted by home agent. The home agent encapsulates the entire datagram inside a new IP datagram. The use of an outer IP datagram with a different destination IP address is known as “tunneling”. This IP datagram is routed to foreign agent.
+    Foreign agent strips off the outer IP header, encapsulates the original IP datagram in a N/w level packet data unit(PDU) and delivers the original datagram to A across the foreign network.
+    When A sends the IP datagram to X, it uses X’s IP address. This is a fixed address that is X is not a mobile node. Each IP datagram is sent by A to a router on the foreign network to X. This router is also a foreign agent.
+    The IP datagram from A to X travels directly across the Internet to X, using X’s IP address.
+
+Mobile IP Capabilities
+
+    Registration
+    Discovery
+    Tunneling
