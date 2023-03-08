@@ -1,0 +1,30 @@
+site_name: Wireless Technology 
+site_url: https://opesourcetutorials.in/
+nav:
+    - Index : index.md
+    - Module 1  : 
+        - 'Introduction': 'module1/Introduction.md'
+        - 'Multiple Access Techniques': 'module1/MultipleAccessTechniques.md'
+        - 'Spread Spectrum Techniques': 'module1/SpreadSpectrumTechniques.md'
+        - 'Evolution Wireless Generation': 'module1/EvolutionWirelessGeneration.md'
+        - '5G Key Requirements': 'module1/5GKeyRequirements.md'
+    - Module 2 :
+        - 'Introduction': 'module2/1.Topics.md'
+        - 'Overview of LoRa & LoRaWAN': 'module2/lorawan.md'
+        
+    - Module 3 : 
+        - 'Contents': 'module3/1.Topics.md'
+
+    - Module 4 :
+       - 'Contents': 'module4/1.Topics.md'
+
+    - Module 5 : 
+       - 'GSM Security': 'module5/gsm_security.md'
+       - 'UMTS Security': 'module5/UMTSSecurity.md'
+       - 'Bluetooth Security': 'module5/BluetoothSecurity.md'
+       - 'WEP and WPA2': 'module5/WEPandWPA2.md'
+    - Module 6 :
+       - 'Intorduction to CISCO Unified Network': 'module6/Intro_Ciscco_Unified_Network.md'
+       - 'Designing Wireless Networks ': 'module6/DesigningWirelessNetworks.md'
+       - 'Model Questions ': 'module6/SampleQuestions.md'
+theme: material
